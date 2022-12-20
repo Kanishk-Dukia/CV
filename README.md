@@ -1,1 +1,1 @@
-#Resume[https://kanishk-cv.netlify.app/]
+#[Resume](https://kanishk-cv.netlify.app/)
