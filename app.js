@@ -135,3 +135,9 @@ document.addEventListener("DOMContentLoaded", function(){
 }); 
 
 
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function () {
+  this.setTimeout(() => {
+    loader.style.display = "none";
+  }, 1800)
+})

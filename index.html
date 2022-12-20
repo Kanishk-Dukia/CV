@@ -9,12 +9,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Combo&family=Inconsolata:wght@600&family=Lato:wght@100&family=Londrina+Outline&family=Ms+Madi&family=Open+Sans:ital,wght@0,300;1,300&family=Oswald:wght@700&family=Qwitcher+Grypen&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Combo&family=Inconsolata:wght@600&family=Lato:wght@100&family=Londrina+Outline&family=Ms+Madi&family=Open+Sans:ital,wght@0,300;1,300&family=Oswald:wght@700&family=Qwitcher+Grypen&family=Roboto+Condensed:wght@700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
+
+    <div id="preloader"></div>  
+    
     <header>
         <nav id="navbar_st" class="navbar navbar-expand-lg bg-light  ">
             <div class="container-fluid">
@@ -34,6 +39,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#footer">Contact Me</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:kanishk97822@gmail.com"
+                                style="color: blue;">kanishk97822@gmail.com</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="https://drive.google.com/file/d/1gcJLq0_DCJ7oHP9OZlcR1LSneMN4GrXj/view?usp=sharing"
+                                style="color: blue;" target="_blank">Resume</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -49,14 +63,13 @@
                     </div>
                     <div class="col-lg-6 intro">
                         <h1><b>Hello,</b> </h1>
-                        <h2>I am kanishk</h2>
+                        <h2>I am Kanishk</h2>
                         <h5 id="ih5">Currently pursing Btech at Maulana Azad National Institute of Technology,Bhopal. I
                             have a
                             keen interest in currently
-                            emerging technology both in terms of hardware and Software. I will give my all to complete a
-                            given task.</h5>
+                            emerging technology. I have a simple policy either i don't do a task or do it with full
+                            commitment until it is completed.</h5>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -67,131 +80,183 @@
         <div class="projects__cards">
 
             <div class="projects__card">
-                <h3 >Uniswap</h3>
-                <img src="images/mypic.jpg" alt="Uniswap Swap Page" />
-                <p style="text-align: left;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis consectetur facere neque assumenda quasi aliquid,
-                    perferendis ratione rerum dolorem.
+                <h3>Clone Site</h3>
+                <img src="images/ibc.png" alt="clone" />
+                <p style="text-align: left;">In this project I cloned the site of one of my college society IBC.
+                    This was my first major development task after learning web-d. It has a lot of mistake, still it
+                    took lot of time and I learned a lot from this.
+                    This project is a front-end implementation.
                 </p>
 
-                <form action="https://ide.geeksforgeeks.org/">
-                    <button type="submit" value="submit " class="btn btn-outline-secondary button">Primary</button>
+                <form action="https://kanishk-dukia.github.io/1_site/" target="_blank">
+                    <button type="submit" value="submit " class="btn btn-outline-secondary button">Project link</button>
                 </form>
             </div>
 
             <div class="projects__card">
-                <h3 >Compound</h3>
-                <img src="images/mypic.jpg" alt="Compound Landing Page" />
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis consectetur facere neque assumenda quasi aliquid,
-                    perferendis ratione rerum dolorem.
+                <h3>Game Store (Work in Progress)</h3>
+                <img src="images/wap.png" alt="game" />
+                <p>In this project I worked on the front-end and the back-end to develop a game rental site which is
+                    capable of showing all the stocks that are games that are available in store. The front-end is made
+                    using bootstrap, CSS, HTML & the back end is made using SQL, nodejs.
                 </p>
 
-                <form action="https://ide.geeksforgeeks.org/">
-                    <button type="submit" value="submit " class="btn btn-outline-secondary  button" style="margin: 0 3em 0 7em;">Primary</button>
+                <form action="https://github.com/Kanishk-Dukia/dbmsProject" target="_blank">
+                    <button type="submit" value="submit " class="btn btn-outline-secondary  button"
+                        style="margin: 0 3em 0 7em;">Repo Link</button>
                 </form>
 
 
             </div>
 
             <div class="projects__card">
-                <h3 >Aave</h3>
-                <img src="images/mypic.jpg" alt="Aave Landing Page" />
-                <p style="text-align:right ;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis consectetur facere neque assumenda quasi aliquid,
-                    perferendis ratione rerum dolorem.
+                <h3>Miscellaneous</h3>
+                <img src="images/moc.jpg" alt="Miscellaneous" />
+                <p style="text-align:right ;">This are the few projects that I made while learning web-d.
                 </p>
 
-                <form action="https://ide.geeksforgeeks.org/">
-                    <button type="submit" value="submit " class="btn btn-outline-secondary button"  style="margin-left: 14em;">Primary</button>
+                <form action="https://github.com/Kanishk-Dukia/web-d-projects" target="_blank">
+                    <button type="submit" value="submit " class="btn btn-outline-secondary button"
+                        style="margin-left: 14em;">Repo Link</button>
                 </form>
             </div>
         </div>
     </section>
 
     <section style="margin-top: 4em; " id="aboutme">
+        <h2 id="ah2">About Me</h2>
         <div class="container" id="aboutme">
             <div class="row s2sub">
-                <div class="col" >
-                    <div class="s2t" >LOREM EPISUM</div>
-                         
+                <div class="col">
+                    <div class="s2t">Competitive Programming</div>
+
                     <div>
-                        <h1 class="s2h1">Who are we?</h1>
+                        <h1 class="s2h1">C++/C</h1>
                     </div>
 
-                    <div >
-                        <p class="s2p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nobis, ex quia in fugit
-                            nulla, mollitia provident quaerat delectus quasi perspiciatis sed. Explicabo architecto
-                            voluptatem perspiciatis a eligendi nesciunt labore?
+                    <div>
+                        <p class="s2p">For me CP is a way to exercise my mind. It helps me concentrate and explore new
+                            ways to approch same problem. I reguraly appear for contest on different problem and solve
+                            problems on daily basis.
+                            <br>
+                            <b>Below are the few platform profile links.</b>
                         </p>
+
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="https://codeforces.com/profile/Ozzzz53" target="_blank">
+                                        <img src="images/icons8-codeforces.-programming-competitions-and-contests,-programming-community.-24.png"
+                                            alt="codeforces">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="https://www.codechef.com/users/quartz2829" target="_blank"><img
+                                            src="images/icons8-codechef-48.png" alt="codechef"></a>
+                                </div>
+                                <div class="col">
+                                    <a href="https://www.hackerrank.com/woekspace" target="_blank"><img
+                                            src="images/icons8-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-48.png"
+                                            alt="hackerrank"></a>
+                                </div>
+                                <div class="col">
+                                    <a href="https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/00000000008caba4"
+                                        target="_blank"><img src="images/icons8-kickstarter-48.png"
+                                            alt="google kickstarter"></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col s2pic" >
-                    <img id="s2pic1" src="images/pontem1.png" alt="">
+                <div class="col s2pic">
+                    <img id="s2pic1" src="images/cp.jpg" alt="">
                 </div>
             </div>
             <div class="row s2sub">
 
-                <div class="col s2pic" >
-                    <img id="s2pic1" src="images/pontem1.png" alt="">
+                <div class="col s2pic">
+                    <img id="s2pic1" src="images/web-d.jpeg" alt="">
                 </div>
 
-                <div class="col" >
-                    <div class="s2t" >LOREM EPISUM</div>
-                         
+                <div class="col">
+                    <div class="s2t">Web development</div>
+
                     <div>
-                        <h1 class="s2h1">Who are we?</h1>
+                        <h1 class="s2h1">JavaScript/html/CSS</h1>
                     </div>
 
-                    <div >
-                        <p class="s2p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nobis, ex quia in fugit
-                            nulla, mollitia provident quaerat delectus quasi perspiciatis sed. Explicabo architecto
-                            voluptatem perspiciatis a eligendi nesciunt labore?
+                    <div>
+                        <p class="s2p">I am taking a course on web-dev from udemy and through this I am getting familiar
+                            with basics of Javascript, Html, CSS , bootstrap. Apart from this i am learning express,
+                            node, mongodb.
+                            I will be doing Yelp camp project after this. Further, I will be learning REACT.js.
                         </p>
                     </div>
                 </div>
 
-                
+
             </div>
             <div class="row s2sub">
-                <div class="col" >
-                    <div class="s2t" >LOREM EPISUM</div>
-                         
+                <div class="col">
+                    <div class="s2t">Blockchain</div>
+
                     <div>
-                        <h1 class="s2h1">Who are we?</h1>
+                        <h1 class="s2h1">Tech/Investment</h1>
                     </div>
 
-                    <div >
-                        <p class="s2p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nobis, ex quia in fugit
-                            nulla, mollitia provident quaerat delectus quasi perspiciatis sed. Explicabo architecto
-                            voluptatem perspiciatis a eligendi nesciunt labore?
+                    <div>
+                        <p class="s2p">Blockchain technology intrigues me both in technology and its investment
+                            strategy. This field was intially introduced to me by a frined of mine and I suddenly
+                            developed a lot of interest in it. It has a lot of application and improvement upon old
+                            finacial system and hence its a very future proof technology.
                         </p>
                     </div>
                 </div>
 
-                <div class="col s2pic" >
-                    <img id="s2pic1" src="images/pontem1.png" alt="">
+                <div class="col s2pic">
+                    <img id="s2pic1" src="images/block.jpg" alt="">
                 </div>
             </div>
             <div class="row s2sub">
-                <div class="col s2pic" >
-                    <img id="s2pic1" src="images/pontem1.png" alt="">
+                <div class="col s2pic">
+                    <img id="s2pic1" src="images/3d2.jpg" alt="">
                 </div>
 
-                <div class="col" >
-                    <div class="s2t" >LOREM EPISUM</div>
-                         
+                <div class="col">
+                    <div class="s2t">Games</div>
+
                     <div>
-                        <h1 class="s2h1">Who are we?</h1>
+                        <h1 class="s2h1">Playing/Development</h1>
                     </div>
 
-                    <div >
-                        <p class="s2p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nobis, ex quia in fugit
-                            nulla, mollitia provident quaerat delectus quasi perspiciatis sed. Explicabo architecto
-                            voluptatem perspiciatis a eligendi nesciunt labore?
+                    <div>
+                        <p class="s2p">In my spare time I like playing computer games. According to me this is a single
+                            field that has improved many folds both in terms of technology and monetary. People of all
+                            ages play games and therefore if I get sufficient time in future I will learn 3-D
+                            development.
                         </p>
                     </div>
+                </div>
+            </div>
+
+            <div class="row s2sub">
+                <div class="col">
+                    <div class="s2t">Society</div>
+
+                    <div>
+                        <h1 class="s2h1">IBC/VISION</h1>
+                    </div>
+
+                    <div>
+                        <p class="s2p">Currently I am working as a Web Developer for IBC Society and Technical Executive
+                            at VISION CSE MANIT.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col s2pic">
+                    <img id="s2pic1" src="images/vs.svg" alt="">
                 </div>
             </div>
         </div>
@@ -201,21 +266,25 @@
         <div class="container text-center" style="margin-top: 6em; ">
             <div class="row">
                 <div class="col">
-                    <a href="" target="_blank">
-                        <img src="images/icons8-discord.svg" alt="discord">
+                    <a href="https://www.facebook.com/profile.php?id=100004410224683" target="_blank">
+                        <img src="images/icons8-facebook.svg" alt="facebook">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank"><img src="images/icons8-github.svg" alt=""></a>
+                    <a href="https://github.com/Kanishk-Dukia" target="_blank"><img src="images/icons8-github.svg"
+                            alt=""></a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank"><img src="images/icons8-linkedin-circled.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/in/kanishk-dukia-254760228/" target="_blank"><img
+                            src="images/icons8-linkedin-circled.svg" alt=""></a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank"><img src="images/icons8-twitter.svg" alt=""></a>
+                    <a href="https://twitter.com/bent_forky" target="_blank"><img src="images/icons8-twitter.svg"
+                            alt="twitter"></a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank"> <img src="images/icons8-telegram-app.svg" alt=""></a>
+                    <a href="https://www.instagram.com/kanishk_dukia/" target="_blank"> <img
+                            src="images/icons8-instagram.svg" alt="instagram"></a>
                 </div>
             </div>
         </div>
